@@ -1,8 +1,8 @@
 package main
 
 import (
-	"api-rest-golang-basic/configs"
-	"api-rest-golang-basic/handlers"
+	"github.com/patrik-rangel/API-Rest-Go_CRUD/tree/main/api-rest-golang-basic/configs"
+	"github.com/patrik-rangel/API-Rest-Go_CRUD/tree/main/api-rest-golang-basic/handlers"
 	"fmt"
 	"net/http"
 

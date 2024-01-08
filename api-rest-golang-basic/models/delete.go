@@ -1,6 +1,6 @@
 package models
 
-import "api-rest-golang-basic/db"
+import "github.com/patrik-rangel/API-Rest-Go_CRUD/tree/main/api-rest-golang-basic/db"
 
 func Delete(id int64) (int64, error) {
 	conn, err := db.OpenConnection()

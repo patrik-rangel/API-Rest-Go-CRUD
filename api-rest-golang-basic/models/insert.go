@@ -1,7 +1,7 @@
 package models
 
 import (
-	"api-rest-golang-basic/db"
+	"github.com/patrik-rangel/API-Rest-Go_CRUD/tree/main/api-rest-golang-basic/db"
 )
 
 func Insert(todo Todo) (id int64, err error) {
@@ -12,7 +12,7 @@ func Insert(todo Todo) (id int64, err error) {
 	defer conn.Close()
 
 	sql := `INSERT INTO todos (title, description, done) VALUES (?, ?, ?)`
-	
+
 	result, err := conn.Exec(sql, todo.Title, todo.Description, todo.Done)
 	if err != nil {
 		return

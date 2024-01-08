@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"api-rest-golang-basic/models"
+	"github.com/patrik-rangel/API-Rest-Go_CRUD/tree/main/api-rest-golang-basic/models"
 	"log"
 	"net/http"
 	"encoding/json"

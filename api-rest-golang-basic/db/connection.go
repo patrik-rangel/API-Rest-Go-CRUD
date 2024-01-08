@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"api-rest-golang-basic/configs" 
+	"github.com/patrik-rangel/API-Rest-Go_CRUD/tree/main/api-rest-golang-basic/configs" 
 	_ "github.com/go-sql-driver/mysql"
 )
 
